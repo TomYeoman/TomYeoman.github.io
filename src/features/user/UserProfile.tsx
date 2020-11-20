@@ -25,7 +25,7 @@ export default function UserProfile(): ReactElement {
   const { username } = useSelector((state: RootState) => state.userSlice);
 
   return <div>
-    Latest build = {username}
+    V2  = {username}
     <StyledForm>
       <form>
         <input type="text" placeholder="Full name" />
